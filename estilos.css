@@ -1,0 +1,12 @@
+body{
+    background-color: darkgray;
+}
+#caja {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    border:2px inset purple;
+    position: fixed;
+
+}
