@@ -6,11 +6,11 @@ function iniciar() {
 
     posicionX = Number(document.getElementById('caja').style.left);
     posicionY = Number(document.getElementById('caja').style.top);
-    document.addEventListener("click", clickea);
     window.addEventListener("keydown", teclado);
+   document.getElementById('caja').addEventListener("click",clickea) 
 }
 function clickea(e) {
-    alert("pop");
+   console.log("pop");
 }
 
 function teclado(e) {
